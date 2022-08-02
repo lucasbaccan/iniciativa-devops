@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:16.15.0
 WORKDIR /app
 COPY ./conversao-temperatura/src/package*.json ./
 RUN npm install
